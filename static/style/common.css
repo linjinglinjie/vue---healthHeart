@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+html{
+	font-size:14px;
+}
+body {
+  width: 100%;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #878787;
+  -webkit-touch-callout: inherit ;
+  -webkit-user-select: auto ;
+  background:#F4F5F7;
+}
+a {
+  color: #878787;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+button,input,select,textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Microsoft YaHei';
+}
+dt,dd {
+  display: inline-block;
+}
+textarea,input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,ol,li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+.clear:after{
+	display: block;
+	content:'';
+	height:0;
+	visibility: hidden;
+	clear:both;
+}
+.disI{
+	display: inline-block;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.algin-center{
+	text-align: center;
+}
+.align-left{
+	text-align: left;
+}
+.align-right{
+	text-align: right;
+}
+.p15{
+	padding:0 1rem;
+}
+.flex{
+	display:flex;
+	justify-content:space-around;
+	flex-grow: 1;
+}
+.verM{
+	vertical-align: middle;
+}
+.por{
+  position: relative;
+}
+.poa{
+  position: absolute;
+}
+.pof{
+	position: fixed;
+}
+@media screen and (min-width: 480px) {
+html {font-size: 24px;}
+}
+@media screen and (min-width: 640px) {
+html { font-size: 32px;}
+}
